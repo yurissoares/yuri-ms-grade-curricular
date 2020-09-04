@@ -1,0 +1,10 @@
+language: java
+jdk:
+    -openjdk11
+deploy:
+    provider: heroku
+    api_key: 
+        secure: jC79kRMJMnfjADzTRdhfb5u91/WFpr7LM0xV/buodcuTw05lSTwpHT0mts79JRavZV4B5zu7qE6DUACokrspdKOy9D0QaREXzVUpsLUi6kK9DDUUdrE7xoSKQ7IAX8CxwjIQL2QiXgE+r67hUTjJwHAhdXSoSImFUvx0dQG/DKo7wEo+eQcR3C6dT2aUARpoLMWCVEs/YA5OlQULUH9V0tTX+1lc++QPJLrgldkZ73X34WUIZJADq8epOWQ7vTa1mrWPuD25cx6W5V4GZ6szgfXF106UdJSbwjBJtq835Ps1y7BH9FYrZhHyaLvmpP/iKzse87D+lmpRJJtoGYHLUMCCYqvPe0gtc+PDmbNvqWuwfFL1KkY+OTCWr/5w27n6gMarMvAl7T0t/IODfeKwq1Rj/7Dm9opbvc9BJtpFTGZp8IqtZlCPNsPQWzW5l7CE9c6OjiOguu5t+AmVGeUNZVfGa70TKk1UMF/jHV9fUAMGciaGkkunKPMyqy8wrQx1phooagy6Nn/PfMxtFQ+lnxbUNPWm1ypGaB/BR5ynnow40mOaR7KO4kB8p94Ecw8Wa8DHpGLe20XJyQlu1oJHNqmF8r1h5jlujYP9NZ+6zCnOo2+z1AJaX8kL4CE9B/lsms+DCl+VofnqGaOhDRgKFD0PaErcZJwgDBuH6N23gc0=
+    app: grade-curricular-dev-yuri
+    on:    
+        all_branch: true
